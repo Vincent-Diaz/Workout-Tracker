@@ -10,7 +10,8 @@ Deployed Link: https://workout-tracker52.herokuapp.com/
 After cloning down the repo. Simply run npm install to install all required dependencies, and run node server.js.
 
 ## Application Example
-<img scr="images/Fitness-Tracker.gif">
+
+<img src="/images/Fitness-Tracker.gif">
 
 ## Technologies
 * HTML
