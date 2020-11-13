@@ -11,7 +11,6 @@ module.exports = function (app) {
     app.get("/api/workouts", (req, res) => {
         DB.find({})
         .populate("exercises")
-        .populate("totalDuration")
         .then(workoutDB => {
             res.json(workoutDB);
         })
